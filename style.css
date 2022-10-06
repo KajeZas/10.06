@@ -1,0 +1,57 @@
+*{
+    border: solid 2px white;
+}
+header{
+    height: 15vh;
+    background-color: blue;
+}
+nav{
+    height: 40vh;
+    background-color: blue;
+}
+main{
+    height: 15vh;
+    background-color: blue;
+}
+aside{
+    height: 15vh;
+    background-color: blue;
+}
+footer{
+    height: 15vh;
+    background-color: blue;
+}
+@media all and (max-width: 480px) {
+    body {
+        color: pink;
+        background: purple;
+    }
+}
+@media all and (min-width: 768px){
+    header{
+        height: 20vh;
+    }
+    nav{
+        height: 10vh;
+    }
+    .row{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    main{
+        width: 70%;
+        height: 60vh;
+    }
+    aside{
+        width: 30%;
+        height: 60vh;
+    }
+    footer{
+        height: 10vh;
+    }
+    main, aside{
+        background-color: aquamarine;
+    }
+}
